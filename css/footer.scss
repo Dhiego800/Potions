@@ -1,0 +1,58 @@
+footer, .contact, .ul-company, .page-end, .ul-sociais{
+    display: flex;
+}
+
+footer{
+	background-color: #e6e6e6;
+	display: flex;
+}
+.button-submit{
+	text-transform: uppercase;
+    background-color: #d73a1e;
+    padding: 5px;
+    border: solid transparent;
+    border-radius: 6px;
+    width: 7em;
+    font-size: 12px;
+    color: #fff;
+}
+.input-footer{
+	width: 260px;
+    height: 13px;
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.contact{
+	flex-direction: column;
+	width: 50%;
+}
+.footer-right{
+	margin-top: 45px;
+    padding: 15px;
+    background-color: white;
+}
+.span-footer{
+	padding-left: 30px;
+	color: #7a9e9e;
+}
+.ul-company li{
+	padding-left:30px;
+
+        a{
+        font-size: 20px;
+        color: #d83b1e;
+    }
+}
+.form-footer{
+	margin-top: 10px;
+}
+.page-end{
+    justify-content: space-around;
+}
+.ul-sociais{
+    align-items: center;
+    padding: 4%;
+    justify-content: space-between;
+    width: 30%;
+}

@@ -1,0 +1,17 @@
+.menu-nav{
+	padding: 15px;
+	background-color:#523468;
+}
+.nav-list{
+	display: flex;
+	justify-content: space-between;
+}
+.menu-list{
+	display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.menu-nav ul li a,.nav-right span a {
+	letter-spacing: 1px;
+	color: #fff;
+}
